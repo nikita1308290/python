@@ -1,0 +1,6 @@
+y = ord('A')
+print(y)
+y = ord('a')
+print(y)
+y = ord('{')
+print(y)
