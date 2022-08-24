@@ -15,7 +15,7 @@ def draw():
     screen.draw.filled_rect(box2, color='red')
 
 def update():
-    box.x +=4
-    box2.y +=4
+    box.x +=1
+    box2.y +=2
 
 pgzrun.go()
