@@ -36,7 +36,7 @@ def player_controls():
         p.y +=-speed
     elif keyboard.DOWN and not p.bottom>HEIGHT:
         p.y +=speed
-    elif keyboard.Left and not p.left<0:
+    elif keyboard.LEFT and not p.left<0:
         p.x +=-speed
     elif keyboard.RIGHT and not p.right>WIDTH:
         p.x +=speed

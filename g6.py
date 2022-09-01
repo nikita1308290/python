@@ -27,13 +27,13 @@ def update():
 
 def enemy_movement():
     if p.x > e.x:
-        e.x+=espeed
+        e.x+=speed
     if p.y > e.y:
-        e.y+=espeed
+        e.y+=speed
     if p.x > e.x:
-        e.x-=espeed
+        e.x-=speed
     if p.y > e.y:
-        e.y-=espeed
+        e.y-=speed
     if p.colliderect(e):
         print('game over')
 
