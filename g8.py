@@ -99,7 +99,7 @@ def on_key_down(key):
     if key == keys.SPACE and len(bullets) < MAX_BULLETS:
         bullet = Actor("bullet", pos=(player.x, player.y))
         bullets.append(bullet)
-        sounds.    s 1.play()
+        sounds.s1.play()
 
 def move_bullets():
     for bullet in bullets: 
